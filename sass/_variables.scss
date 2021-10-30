@@ -21,10 +21,10 @@ $colors: (
     "white": #ffffff
 );
 
+/*
 .test-btn {
     background-color: map-get($colors, "purple" );
 }
-/*
 @debug map-get($colors, "purple" );
 @debug map-has-key($colors, "secondary");
 @debug map-remove($colors, "primary");
