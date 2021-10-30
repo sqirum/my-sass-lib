@@ -45,6 +45,42 @@ img {
   max-width: 100%;
 }
 
+@media (min-width: 0) {
+  .responsive-test {
+    color: red;
+  }
+}
+@media (min-width: 480px) {
+  .responsive-test {
+    color: blue;
+  }
+}
+@media (min-width: 720px) {
+  .responsive-test {
+    color: green;
+  }
+}
+@media (min-width: 960px) {
+  .responsive-test {
+    color: purple;
+  }
+}
+@media (min-width: 1200px) {
+  .responsive-test {
+    color: orange;
+  }
+}
+@media (min-width: 1440px) {
+  .responsive-test {
+    color: royalblue;
+  }
+}
+@media (min-width: 1600px) {
+  .responsive-test {
+    color: brown;
+  }
+}
+
 .text-primary {
   color: #326dee;
 }
